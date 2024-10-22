@@ -1,0 +1,22 @@
+/* *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+} */
+.container{
+    width: 500PX;
+    height: 500PX;
+    border: 2PX SOLID;
+}
+
+@media screen and (width < 600px) {
+    .container {
+        background-color: aqua;
+    }
+    
+}
+@media screen and (width >=600px) and (width <=1024px) {
+    .container {
+        background-color: aquamarine;
+    }
+}
